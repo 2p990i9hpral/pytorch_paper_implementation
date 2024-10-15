@@ -9,9 +9,9 @@ verify_ssl = false
 name = "pytorch"
 
 [packages]
-torch = {version = "*", index = "pytorch"}
-torchvision = {version = "*", index = "pytorch"}
-torchaudio = {version = "*", index = "pytorch"}
+torch = { index = "pytorch"}
+torchvision = { index = "pytorch"}
+torchaudio = { index = "pytorch"}
 jupyter = "*"
 matplotlib = "*"
 tqdm = "*"
@@ -19,6 +19,7 @@ torchinfo = "*"
 torchmetrics = "*"
 scikit-learn = "*"
 wandb = "*"
+transformers = "*"
 
 [dev-packages]
 
